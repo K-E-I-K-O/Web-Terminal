@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="terminal">
+        <h1>Web Terminal</h1>
+        <div class="console">
+            <textarea id="command-input" placeholder="Enter command..."></textarea>
+            <button id="execute-btn">Execute Command</button>
+            <button id="store-btn">Store Command</button>
+        </div>
+        
+        <div class="output">
+            <h2>Output:</h2>
+            <div id="output-area"></div>
+        </div>
+        
+        <div class="status">
+            <h2>Status:</h2>
+            <p id="status-message">No command running.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
